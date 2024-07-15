@@ -1,0 +1,41 @@
+@import '../../styles/utils/vars';
+@import '../../styles/utils/fonts';
+
+.header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  display: flex;
+  background-color: $main-grey;
+
+  &__nav {
+    font-family: inherit;
+    color:white;
+    text-decoration: none;
+    padding: 26px 55px;
+    width: 100%;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  &__lang {
+    display: flex;
+    gap: 2px;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+  }
+}
